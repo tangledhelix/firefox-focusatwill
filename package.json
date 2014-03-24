@@ -6,41 +6,47 @@
     "author": "Dan Lowe",
     "homepage": "https://github.com/tangledhelix/firefox-focusatwill",
     "license": "BSD",
-    "version": "1.0",
+    "version": "1.0.0",
     "preferences": [{
         "name": "hotkeyChar",
         "title": "Hotkey",
-        "description": "Keypress to play/pause focus@will. Change takes effect on restart.",
+        "description": "Keypress to play/pause focus@will",
         "type": "string",
         "value": "z"
     },{
         "name": "useAccelKey",
         "title": "Accel key",
-        "description": "Use accel key (Mac: Command, Win/Linux: Ctrl)  Change takes effect on restart.",
+        "description": "Use accel key? (Mac: Command, Win/Linux: Ctrl)",
         "type": "bool",
         "value": true
     },{
         "name": "useAltKey",
         "title": "Alt key",
-        "description": "Use alt key? (Mac: Option, Win: Alt). On Mac this requires a second modifier. Change takes effect on restart.",
+        "description": "Use alt key? (Mac: Option, Win: Alt). On Mac this requires a second modifier!",
         "type": "bool",
         "value": true
     },{
         "name": "useShiftKey",
         "title": "Shift key",
-        "description": "Use shift key?  Change takes effect on restart.",
+        "description": "Use shift key?",
+        "type": "bool",
+        "value": false
+    },{
+        "name": "useControlKey",
+        "title": "Control key",
+        "description": "Use control key?",
         "type": "bool",
         "value": false
     },{
         "name": "openNewTab",
         "title": "Open tab?",
-        "description": "If focus@will is not already open, open it in a new tab?",
+        "description": "If focus@will player is not open, open it in a new tab?",
         "type": "bool",
         "value": true
     },{
         "name": "pinNewTab",
         "title": "Pin tab?",
-        "description": "When opening a new focus@will tab, pin the new tab?",
+        "description": "When opening a new focus@will tab, pin the tab?",
         "type": "bool",
         "value": false
     }]

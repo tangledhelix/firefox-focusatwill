@@ -1,0 +1,46 @@
+{
+    "name": "focusatwill-hotkey",
+    "title": "focus@will hotkey",
+    "id": "focusatwillhotkey@tangledhelix.com",
+    "description": "Provides a hotkey to play/pause your focus@will tab.",
+    "author": "Dan Lowe (http://tangledhelix.com)",
+    "license": "MPL 2.0",
+    "version": "1.0",
+    "preferences": [{
+        "name": "hotkeyChar",
+        "title": "Hotkey",
+        "description": "Keypress to play/pause focus@will. Change takes effect on restart.",
+        "type": "string",
+        "value": "z"
+    },{
+        "name": "useAccelKey",
+        "title": "Accel key",
+        "description": "Use accel key (Mac: Command, Win/Linux: Ctrl)  Change takes effect on restart.",
+        "type": "bool",
+        "value": true
+    },{
+        "name": "useAltKey",
+        "title": "Alt key",
+        "description": "Use alt key? (Mac: Option, Win: Alt). On Mac this requires a second modifier. Change takes effect on restart.",
+        "type": "bool",
+        "value": true
+    },{
+        "name": "useShiftKey",
+        "title": "Shift key",
+        "description": "Use shift key?  Change takes effect on restart.",
+        "type": "bool",
+        "value": false
+    },{
+        "name": "openNewTab",
+        "title": "Open tab?",
+        "description": "If focus@will is not already open, open it in a new tab?",
+        "type": "bool",
+        "value": true
+    },{
+        "name": "pinNewTab",
+        "title": "Pin tab?",
+        "description": "When opening a new focus@will tab, pin the new tab?",
+        "type": "bool",
+        "value": false
+    }]
+}

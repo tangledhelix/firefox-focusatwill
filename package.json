@@ -3,8 +3,9 @@
     "title": "focus@will hotkey",
     "id": "focusatwillhotkey@tangledhelix.com",
     "description": "Provides a hotkey to play/pause your focus@will tab.",
-    "author": "Dan Lowe (http://tangledhelix.com)",
-    "license": "MPL 2.0",
+    "author": "Dan Lowe",
+    "homepage": "https://github.com/tangledhelix/firefox-focusatwill",
+    "license": "BSD",
     "version": "1.0",
     "preferences": [{
         "name": "hotkeyChar",
